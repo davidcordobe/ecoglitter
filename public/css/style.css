@@ -1,31 +1,31 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-ul{
+ul {
     display: flex;
     justify-content: space-evenly;
     text-align: center;
     align-items: center;
     margin-bottom: 30px;
     margin-top: 20px;
-    
+
 }
 
-li{
+li {
     list-style: none;
 }
 
-.menu{
+.menu {
     text-decoration: none;
     font-weight: bold;
     font-size: 1.2em;
     color: rgb(252, 67, 221);
 }
 
-.menu:hover{
+.menu:hover {
     border-top: 1px solid #35FB8C;
     border-bottom: 1px solid #76E202;
     border-left: 1px solid #F9D42C;
@@ -35,9 +35,39 @@ li{
     color: rgb(105, 33, 93);
 }
 
-.titulo{
+.titulo {
     text-align: center;
     background: linear-gradient(to left, #E32624, #E32624, #35FB8C, #76E202, #E32624, #F9D42C);
--webkit-background-clip: text;
-color: transparent;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+
+/* CONTACTO */
+
+label {
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+input {
+    border: none;
+    background: linear-gradient(to left, #E32624, #E32624, #35FB8C, #76E202, #E32624, #F9D42C);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.enviar{
+    background: linear-gradient(to left, #E32624, #E32624, #35FB8C, #76E202, #E32624, #F9D42C);
+    -webkit-background-clip: text;
+    color: transparent;
+    width: 300px;
+    align-items: center;
+    font-size: 1.3em;
+    margin-top: 20px;
+    border-top: 1px solid #35FB8C;
+    border-bottom: 1px solid #76E202;
+    border-left: 1px solid #F9D42C;
+    border-right: 1px solid #E32624;
+    border-radius: 6px;
 }

@@ -1,0 +1,21 @@
+<div class="container">
+    <h3 class="titulo">
+        Contacta con Nosotros! 
+    </h3>
+    <hr>
+
+    <form action="/contacto" method="post" class="row from-control container">
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre" required placeholder="INGRESA TU NOMBRE">
+        <label for="apellido">Apellido</label>
+        <input type="text" name="apellido" required placeholder="INGRESA TU APELLIDO">
+        <label for="telefono">Telefono</label>
+        <input type="number" name="telefeno" required placeholder="(351)">
+        <label for="email">Email</label>
+        <input type="email" name="email" required placeholder="INGRESA TU EMAIL">
+        <br>
+        <label for="mensaje">Mensaje</label>
+        <textarea name="mensaje" id="mensaje" cols="10" rows="5" placeholder="DEJANOS TU CONSULTA AQUI"></textarea>
+        <button type="submit" class="enviar">Enviar Mensaje</button>
+    </form>
+</div>
