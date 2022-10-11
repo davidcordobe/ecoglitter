@@ -57,11 +57,14 @@ input {
     color: transparent;
 }
 
+
+
 .enviar{
     background: linear-gradient(to left, #E32624, #E32624, #35FB8C, #76E202, #E32624, #F9D42C);
     -webkit-background-clip: text;
     color: transparent;
     width: 300px;
+    width: 100%;
     align-items: center;
     font-size: 1.3em;
     margin-top: 20px;
@@ -70,4 +73,50 @@ input {
     border-left: 1px solid #F9D42C;
     border-right: 1px solid #E32624;
     border-radius: 6px;
+}
+
+.enviar:hover{
+    background: linear-gradient(to left, #E32624, #fc8d8b, #089244, #2f5a00, #E32624, #0115c2);
+    -webkit-background-clip: text;
+    color: transparent;
+    width: 300px;
+    width: 100%;
+    align-items: center;
+    font-size: 1.3em;
+    margin-top: 20px;
+    border-top: 1px solid #089244;
+    border-bottom: 1px solid #2f5a00;
+    border-left: 1px solid #0115c2;
+    border-right: 1px solid #fc8d8b;
+    border-radius: 6px;
+}
+
+
+
+/* PRODUCTOS */
+
+.albun{
+    display: grid;
+    grid-auto-rows: 30rem;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 20rem), 1fr));
+    gap: 10px;
+    margin-top: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+/* FOOTER */
+
+.ing{
+    font-size: 2em;
+    background: linear-gradient(#ca296c, #c00197);
+    -webkit-background-clip: text;
+    color: transparent;
 }

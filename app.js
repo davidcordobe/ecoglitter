@@ -54,6 +54,16 @@ app.post('/contacto', (req, res)=>{
     })
 })
 
+app.get('/productos', (req, res)=>{
+    res.render('productos')
+})
+
+
+
+
+
+
+
 
 
 
