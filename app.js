@@ -73,7 +73,6 @@ app.get('/productos', (req, res)=>{
 
 
 
-
 app.listen(PORT, () =>{
     console.log('app andando');
 })

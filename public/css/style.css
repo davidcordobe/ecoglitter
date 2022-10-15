@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+hr{
+    color: #fff;
+}
+
 body{
     background-image: url(/img/glitters.jpg);
     background-repeat: no-repeat;
@@ -16,7 +20,6 @@ ul {
     align-items: center;
     margin-bottom: 30px;
     margin-top: 20px;
-
 }
 
 li {
@@ -72,16 +75,18 @@ li {
 
 .grid-mica {
     display: grid;
-    grid-auto-rows: 15rem;
-    grid-template-columns: repeat(auto-fill, minmax(min(100%, 20rem), 1fr));
+    grid-auto-rows: 20rem;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 30rem), 1fr));
     gap: 50px;
     align-items: center;
+    text-align: center;
+    background-color: rgba(0, 0, 0, .6);
+    border-radius: 5%;
 
 }
 
-.mica {
-    align-items: center;
-    margin-left: 80px;
+.mica-img{
+    border-radius: 10%;
 }
 
 .texto-mica {
@@ -89,8 +94,9 @@ li {
     background: linear-gradient(to bottom, #00f00b, #0283c4, #cd3894, #ffce34);
     -webkit-background-clip: text;
     color: transparent;
-    text-align: center;
     font-size: 1.2em;
+    /* color: #fff; */
+    font-weight: bold;
 }
 
 /* CONTACTO */
@@ -99,6 +105,8 @@ li {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: rgba(0, 0, 0, .6);
+    border-radius: 5%;
 }
 
 label {
