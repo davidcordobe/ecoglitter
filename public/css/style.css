@@ -4,9 +4,14 @@
     box-sizing: border-box;
 }
 
+body{
+    background-image: url(/img/glitters.jpg);
+    background-repeat: no-repeat;
+}
+
 ul {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     text-align: center;
     align-items: center;
     margin-bottom: 30px;
@@ -22,7 +27,16 @@ li {
     text-decoration: none;
     font-weight: bold;
     font-size: 1.2em;
-    color: rgb(252, 67, 221);
+    background: linear-gradient(to bottom, #00f00b, #0283c4, #cd3894, #ffce34);
+    -webkit-background-clip: text;
+    color: transparent;
+    position: fixed;
+    border-top: 1px solid #35FB8C;
+    border-bottom: 1px solid #76E202;
+    border-left: 1px solid #F9D42C;
+    border-right: 1px solid #E32624;
+    border-radius: 6px;
+    padding: 5px 10px;
 }
 
 .menu:hover {
@@ -32,18 +46,60 @@ li {
     border-right: 1px solid #E32624;
     border-radius: 6px;
     padding: 5px 10px;
-    color: rgb(105, 33, 93);
+    color: #F9D42C;
+}
+
+.centrar-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.logo{
+    border-radius: 50%;
 }
 
 .titulo {
     text-align: center;
-    background: linear-gradient(to left, #E32624, #E32624, #35FB8C, #76E202, #E32624, #F9D42C);
+    background: linear-gradient(to bottom, #00f00b, #0283c4, #cd3894, #ffce34);
     -webkit-background-clip: text;
     color: transparent;
 }
 
 
+/* INDEX */
+
+.grid-mica {
+    display: grid;
+    grid-auto-rows: 15rem;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 20rem), 1fr));
+    gap: 50px;
+    align-items: center;
+
+}
+
+.mica {
+    align-items: center;
+    margin-left: 80px;
+}
+
+.texto-mica {
+    font-family: 'Signika', sans-serif;
+    background: linear-gradient(to bottom, #00f00b, #0283c4, #cd3894, #ffce34);
+    -webkit-background-clip: text;
+    color: transparent;
+    text-align: center;
+    font-size: 1.2em;
+}
+
 /* CONTACTO */
+
+.formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 label {
     margin-bottom: 6px;
@@ -52,15 +108,22 @@ label {
 
 input {
     border: none;
-    background: linear-gradient(to left, #E32624, #E32624, #35FB8C, #76E202, #E32624, #F9D42C);
+    background: linear-gradient(to bottom, #00f00b, #0283c4, #cd3894, #ffce34);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+textarea {
+    border: none;
+    background: linear-gradient(to bottom, #00f00b, #0283c4, #cd3894, #ffce34);
     -webkit-background-clip: text;
     color: transparent;
 }
 
 
 
-.enviar{
-    background: linear-gradient(to left, #E32624, #E32624, #35FB8C, #76E202, #E32624, #F9D42C);
+.enviar {
+    background: linear-gradient(to bottom, #00f00b, #0283c4, #cd3894, #ffce34);
     -webkit-background-clip: text;
     color: transparent;
     width: 300px;
@@ -75,8 +138,8 @@ input {
     border-radius: 6px;
 }
 
-.enviar:hover{
-    background: linear-gradient(to left, #E32624, #fc8d8b, #089244, #2f5a00, #E32624, #0115c2);
+.enviar:hover {
+    background: linear-gradient(to bottom, #00f00b, #0283c4, #cd3894, #ffce34);
     -webkit-background-clip: text;
     color: transparent;
     width: 300px;
@@ -95,7 +158,7 @@ input {
 
 /* PRODUCTOS */
 
-.albun{
+.albun {
     display: grid;
     grid-auto-rows: 30rem;
     grid-template-columns: repeat(auto-fill, minmax(min(100%, 20rem), 1fr));
@@ -114,7 +177,7 @@ input {
 
 /* FOOTER */
 
-.ing{
+.ing {
     font-size: 2em;
     background: linear-gradient(#ca296c, #c00197);
     -webkit-background-clip: text;

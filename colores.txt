@@ -1,0 +1,7 @@
+#00f00b  verde
+
+#0283c4 azul/celeste
+
+#cd3894 rosa/fucsia
+
+#ffce34 amarillo
